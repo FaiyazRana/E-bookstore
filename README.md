@@ -343,10 +343,10 @@ interface Sale {
 
 // Database connection configuration
 const pool = new Pool({
-    user: 'your_username',
+    user: 'Postgres',
     host: 'localhost',
-    database: 'your_database_name',
-    password: 'your_password',
+    database: 'bookstore',
+    password: 'password',
     port: 5432, // or your PostgreSQL port
 });
 
